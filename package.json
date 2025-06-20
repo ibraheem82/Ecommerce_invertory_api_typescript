@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "node --import=tsx --watch --env-file=.env src/index.ts",
-    "build" : "tsc"
+    "dev": "node --import=tsx --watch --env-file=.env src/index.ts",
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "Omikunle Ibraheem",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   }
