@@ -4,7 +4,7 @@ import productsRoutes from './routes/products/index'
 const port = 3000;
 
 const app = express();
-app.use(urlencoded());
+app.use(urlencoded({extended: false}));
 app.use(json());
 
 app.get('/', (req, res) => {
