@@ -1,0 +1,454 @@
+[
+  {
+    "name": "Smartphone",
+    "description": "Latest model smartphone with 128GB storage and dual cameras.",
+    "price": 699.99,
+    "category": "Electronics",
+    "tags": ["smartphone", "mobile", "dual camera", "128GB"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "White"}
+    ],
+    "inventory": {
+      "quantity": 50,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Laptop",
+    "description": "15.6\" FHD laptop with Intel i7 processor, 16GB RAM, 512GB SSD.",
+    "price": 999.99,
+    "category": "Electronics",
+    "tags": ["laptop", "gaming", "Intel i7", "16GB RAM"],
+    "variants": [
+      {"type": "color", "value": "Silver"},
+      {"type": "color", "value": "Space Gray"}
+    ],
+    "inventory": {
+      "quantity": 30,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Wireless Earbuds",
+    "description": "Bluetooth 5.0 earbuds with 20hr battery life and noise cancellation.",
+    "price": 129.99,
+    "category": "Electronics",
+    "tags": ["earbuds", "wireless", "Bluetooth", "noise cancellation"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "White"}
+    ],
+    "inventory": {
+      "quantity": 100,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Smartwatch",
+    "description": "Fitness tracker with heart rate monitor and waterproof design.",
+    "price": 199.99,
+    "category": "Electronics",
+    "tags": ["smartwatch", "fitness", "heart rate", "waterproof"],
+    "variants": [
+      {"type": "color", "value": "Midnight Black"},
+      {"type": "color", "value": "Rose Gold"}
+    ],
+    "inventory": {
+      "quantity": 45,
+      "inStock": true
+    }
+  },
+  {
+    "name": "4K Smart TV",
+    "description": "55\" 4K UHD Smart TV with HDR and built-in streaming apps.",
+    "price": 599.99,
+    "category": "Electronics",
+    "tags": ["TV", "4K", "Smart TV", "HDR"],
+    "variants": [
+      {"type": "size", "value": "55-inch"},
+      {"type": "size", "value": "65-inch"}
+    ],
+    "inventory": {
+      "quantity": 25,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with 1TB storage and 4K gaming support.",
+    "price": 499.99,
+    "category": "Electronics",
+    "tags": ["gaming", "console", "4K", "1TB"],
+    "variants": [
+      {"type": "edition", "value": "Standard"},
+      {"type": "edition", "value": "Deluxe"}
+    ],
+    "inventory": {
+      "quantity": 40,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with 20W output and 12-hour battery life.",
+    "price": 89.99,
+    "category": "Electronics",
+    "tags": ["speaker", "Bluetooth", "portable", "battery"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "Blue"}
+    ],
+    "inventory": {
+      "quantity": 60,
+      "inStock": true
+    }
+  },
+  {
+    "name": "External Hard Drive",
+    "description": "2TB portable hard drive with USB 3.0 connectivity.",
+    "price": 79.99,
+    "category": "Electronics",
+    "tags": ["storage", "hard drive", "portable", "2TB"],
+    "variants": [
+      {"type": "capacity", "value": "1TB"},
+      {"type": "capacity", "value": "2TB"}
+    ],
+    "inventory": {
+      "quantity": 35,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Wireless Keyboard",
+    "description": "Slim wireless keyboard with quiet-touch keys and ergonomic design.",
+    "price": 49.99,
+    "category": "Electronics",
+    "tags": ["keyboard", "wireless", "ergonomic", "slim"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "White"}
+    ],
+    "inventory": {
+      "quantity": 75,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Noise Cancelling Headphones",
+    "description": "Over-ear headphones with active noise cancellation and 30hr battery.",
+    "price": 249.99,
+    "category": "Electronics",
+    "tags": ["headphones", "noise cancellation", "wireless", "over-ear"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "Silver"}
+    ],
+    "inventory": {
+      "quantity": 20,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Fitness Tracker",
+    "description": "Water-resistant fitness tracker with sleep monitoring and step counter.",
+    "price": 79.99,
+    "category": "Electronics",
+    "tags": ["fitness", "tracker", "waterproof", "sleep monitor"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "Pink"}
+    ],
+    "inventory": {
+      "quantity": 50,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable electric toothbrush with 3 cleaning modes.",
+    "price": 59.99,
+    "category": "Health & Beauty",
+    "tags": ["toothbrush", "electric", "rechargeable", "oral care"],
+    "variants": [
+      {"type": "color", "value": "White"},
+      {"type": "color", "value": "Blue"}
+    ],
+    "inventory": {
+      "quantity": 80,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Air Fryer",
+    "description": "5.8L digital air fryer with 8 preset cooking functions.",
+    "price": 119.99,
+    "category": "Home Appliances",
+    "tags": ["air fryer", "kitchen", "healthy cooking", "digital"],
+    "variants": [
+      {"type": "capacity", "value": "3.5L"},
+      {"type": "capacity", "value": "5.8L"}
+    ],
+    "inventory": {
+      "quantity": 25,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Coffee Maker",
+    "description": "Programmable coffee maker with 12-cup capacity and auto-shutoff.",
+    "price": 49.99,
+    "category": "Home Appliances",
+    "tags": ["coffee", "maker", "programmable", "12-cup"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "Stainless Steel"}
+    ],
+    "inventory": {
+      "quantity": 40,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Robot Vacuum",
+    "description": "Smart robot vacuum with app control and self-charging.",
+    "price": 299.99,
+    "category": "Home Appliances",
+    "tags": ["vacuum", "robot", "smart", "self-charging"],
+    "variants": [
+      {"type": "model", "value": "Standard"},
+      {"type": "model", "value": "Pro"}
+    ],
+    "inventory": {
+      "quantity": 15,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Desk Lamp",
+    "description": "LED desk lamp with adjustable brightness and USB charging port.",
+    "price": 29.99,
+    "category": "Home & Office",
+    "tags": ["lamp", "LED", "adjustable", "desk"],
+    "variants": [
+      {"type": "color", "value": "White"},
+      {"type": "color", "value": "Black"}
+    ],
+    "inventory": {
+      "quantity": 65,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Backpack",
+    "description": "Water-resistant backpack with laptop compartment and USB charging port.",
+    "price": 39.99,
+    "category": "Fashion",
+    "tags": ["backpack", "laptop", "waterproof", "USB"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "Navy Blue"}
+    ],
+    "inventory": {
+      "quantity": 55,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Lightweight running shoes with cushioned soles for maximum comfort.",
+    "price": 89.99,
+    "category": "Fashion",
+    "tags": ["shoes", "running", "lightweight", "cushioned"],
+    "variants": [
+      {"type": "size", "value": "US 8"},
+      {"type": "size", "value": "US 9"},
+      {"type": "size", "value": "US 10"}
+    ],
+    "inventory": {
+      "quantity": 70,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Sunglasses",
+    "description": "UV-protection sunglasses with polarized lenses and lightweight frame.",
+    "price": 59.99,
+    "category": "Fashion",
+    "tags": ["sunglasses", "UV protection", "polarized", "lightweight"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "Tortoise"}
+    ],
+    "inventory": {
+      "quantity": 45,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Smart Water Bottle",
+    "description": "Hydration tracking water bottle with reminders and leak-proof design.",
+    "price": 34.99,
+    "category": "Health & Fitness",
+    "tags": ["water bottle", "smart", "hydration", "leak-proof"],
+    "variants": [
+      {"type": "color", "value": "Blue"},
+      {"type": "color", "value": "Pink"}
+    ],
+    "inventory": {
+      "quantity": 60,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Yoga Mat",
+    "description": "Non-slip yoga mat with carrying strap and eco-friendly material.",
+    "price": 24.99,
+    "category": "Fitness",
+    "tags": ["yoga", "mat", "non-slip", "eco-friendly"],
+    "variants": [
+      {"type": "color", "value": "Purple"},
+      {"type": "color", "value": "Teal"}
+    ],
+    "inventory": {
+      "quantity": 50,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Resistance Bands",
+    "description": "Set of 5 resistance bands for home workouts and strength training.",
+    "price": 19.99,
+    "category": "Fitness",
+    "tags": ["resistance bands", "workout", "home gym", "strength"],
+    "variants": [
+      {"type": "resistance", "value": "Light"},
+      {"type": "resistance", "value": "Medium"},
+      {"type": "resistance", "value": "Heavy"}
+    ],
+    "inventory": {
+      "quantity": 85,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Dumbbell Set",
+    "description": "Adjustable dumbbell set with 5-25kg weight range.",
+    "price": 129.99,
+    "category": "Fitness",
+    "tags": ["dumbbell", "weights", "adjustable", "home gym"],
+    "variants": [
+      {"type": "weight", "value": "5-15kg"},
+      {"type": "weight", "value": "5-25kg"}
+    ],
+    "inventory": {
+      "quantity": 20,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Wireless Charger",
+    "description": "10W fast wireless charger compatible with Qi-enabled devices.",
+    "price": 24.99,
+    "category": "Electronics",
+    "tags": ["charger", "wireless", "fast charging", "Qi"],
+    "variants": [
+      {"type": "color", "value": "White"},
+      {"type": "color", "value": "Black"}
+    ],
+    "inventory": {
+      "quantity": 90,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Power Bank",
+    "description": "20000mAh power bank with dual USB ports and fast charging.",
+    "price": 39.99,
+    "category": "Electronics",
+    "tags": ["power bank", "portable", "fast charge", "20000mAh"],
+    "variants": [
+      {"type": "capacity", "value": "10000mAh"},
+      {"type": "capacity", "value": "20000mAh"}
+    ],
+    "inventory": {
+      "quantity": 45,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Travel Pillow",
+    "description": "Memory foam travel pillow with adjustable strap for neck support.",
+    "price": 29.99,
+    "category": "Travel",
+    "tags": ["pillow", "travel", "memory foam", "neck support"],
+    "variants": [
+      {"type": "color", "value": "Gray"},
+      {"type": "color", "value": "Navy"}
+    ],
+    "inventory": {
+      "quantity": 40,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Luggage Set",
+    "description": "3-piece hardshell luggage set with TSA locks and 360° wheels.",
+    "price": 199.99,
+    "category": "Travel",
+    "tags": ["luggage", "travel", "hardshell", "TSA lock"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "Blue"}
+    ],
+    "inventory": {
+      "quantity": 15,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Blender",
+    "description": "High-speed blender with 1000W motor and 6 preset programs.",
+    "price": 89.99,
+    "category": "Home Appliances",
+    "tags": ["blender", "kitchen", "high-speed", "1000W"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "Red"}
+    ],
+    "inventory": {
+      "quantity": 30,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Cookware Set",
+    "description": "10-piece non-stick cookware set with tempered glass lids.",
+    "price": 149.99,
+    "category": "Home & Kitchen",
+    "tags": ["cookware", "non-stick", "10-piece", "kitchen"],
+    "variants": [
+      {"type": "color", "value": "Black"},
+      {"type": "color", "value": "Gray"}
+    ],
+    "inventory": {
+      "quantity": 20,
+      "inStock": true
+    }
+  },
+  {
+    "name": "Cutlery Set",
+    "description": "18/10 stainless steel cutlery set with elegant wooden stand.",
+    "price": 79.99,
+    "category": "Home & Kitchen",
+    "tags": ["cutlery", "stainless steel", "18/10", "kitchen"],
+    "variants": [
+      {"type": "pieces", "value": "20-piece"},
+      {"type": "pieces", "value": "32-piece"}
+    ],
+    "inventory": {
+      "quantity": 25,
+      "inStock": true
+    }
+  }
+]

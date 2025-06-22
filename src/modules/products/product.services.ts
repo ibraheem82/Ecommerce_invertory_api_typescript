@@ -9,9 +9,20 @@ const createAProductIntoDB = async (productData: TProduct) => {
 };
 
 const getProductsFromDB = async (searchTerm = "") => {
-    const query = searchTerm ? {name: {$regex: searchTerm, $options: "i"}} : {}
-    const data = await Product.find(query);
-    return data;
+  const query = searchTerm
+    ? {
+        $or: [
+          { name: { $regex: searchTerm, $options: "i" } },
+          { description: { $regex: searchTerm, $options: "i" } },
+          { category: { $regex: searchTerm, $options: "i" } },
+          { tags: { $in: [new RegExp(searchTerm, "i")] } }, // Correctly searches array
+          { "variants.value": { $regex: searchTerm, $options: "i" } }
+        ]
+      }
+    : {};
+
+  const data = await Product.find(query);
+  return data;
 };
 
 export const ProductServices = {
