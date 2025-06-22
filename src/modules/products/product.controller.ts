@@ -24,10 +24,19 @@ const createProduct = async (req: Request, res: Response) => {
 
 }
 
+const getAllProducts = async (req: Request, res: Response) => {
+    const {searchTerm} = req.query;
+    const result =  await ProductServices.getProductsFromDB(searchTerm as string);
+    res.status(200).json({
+        success: true,
+        message: "Products fetched successfully",
+        data: result
+    })
+}
 
 export const ProductControllers = {
-    createProduct
-    // getAllProducts,
+    createProduct,
+    getAllProducts,
     // getSingleProduct,
     // updateProduct,
     // deleteProduct
