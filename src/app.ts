@@ -6,13 +6,10 @@ const app = express();
 
 // Middlewares()
 app.use(json());
-app.use(cors())
+app.use(cors());
 
 
 // ** Routes
 app.use('/api/products', ProductRoutes)
-
-
-// app.use('/products', productsRoutes)
 
 export default app;
