@@ -6,9 +6,9 @@ const router = express.Router();
 
 router.post('/', ProductControllers.createProduct)
 router.get('/', ProductControllers.getAllProducts)
+router.get("/:productId",ProductControllers.getSingleProduct)
+router.put("/:productId", ProductControllers.updateProduct)
 // router.post('/',verfiyToken, isAdmin,  ProductControllers.createProduct)
-// router.get("/:productId",ProductControllers.getSingleProduct)
-// router.put("/:productId", verfiyToken, isAdmin, ProductControllers.updateProduct)
 // router.delete("/:productId", verfiyToken, isAdmin, ProductControllers.deleteProduct)
 
 
