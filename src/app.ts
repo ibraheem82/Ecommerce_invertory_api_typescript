@@ -1,18 +1,18 @@
-import express, {json, urlencoded} from 'express';
-import productsRoutes from './routes/products/index'
-
-const port = 3000;
-
+import express, {json} from 'express';
+import cors from "cors";
+import { ProductRoutes } from './modules/products/product.routes';
 const app = express();
-app.use(urlencoded({extended: false}));
+
+
+// Middlewares()
 app.use(json());
-
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
+app.use(cors())
 
 
-app.use('/products', productsRoutes)
-app.listen(port, () => {
-  console.log(`app listening on port ${port}`);
-});
+// ** Routes
+app.use('/api/products', ProductRoutes)
+
+
+// app.use('/products', productsRoutes)
+
+export default app;
