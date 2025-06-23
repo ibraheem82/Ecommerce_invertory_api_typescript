@@ -9,7 +9,7 @@ router.get('/', ProductControllers.getAllProducts)
 router.get("/:productId",ProductControllers.getSingleProduct)
 router.put("/:productId", ProductControllers.updateProduct)
 // router.post('/',verfiyToken, isAdmin,  ProductControllers.createProduct)
-// router.delete("/:productId", verfiyToken, isAdmin, ProductControllers.deleteProduct)
+router.delete("/:productId", ProductControllers.deleteProduct)
 
 
 export const ProductRoutes = router;
