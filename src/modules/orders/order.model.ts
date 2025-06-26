@@ -18,6 +18,5 @@ const OrderSchema = new Schema<TOrder>({
         type: Number,
         required: true
     }
-})
-
+});
 export const OrderModel =  model<TOrder>("Order", OrderSchema)
