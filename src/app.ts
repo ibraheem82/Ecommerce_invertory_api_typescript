@@ -11,7 +11,7 @@ app.use(cors());
 
 
 // ** Routes
-app.use('/api/products', ProductRoutes)
+app.use('/api/products', ProductRoutes);
 app.use('/api/orders', OrderRoutes);
 
 
