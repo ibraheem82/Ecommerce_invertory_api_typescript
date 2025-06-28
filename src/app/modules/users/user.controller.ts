@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import jwt from "jsonwebtoken";
-import config from "../../app/config/index";
+import config from "../../config/index";
 import { userServices } from "./user.services";
 
 const JWT_SECRET = config.jwt_secret as string;
