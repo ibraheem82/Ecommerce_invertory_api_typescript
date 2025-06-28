@@ -1,8 +1,8 @@
 import express, { json } from 'express';
 import cors from "cors";
-import { ProductRoutes } from './app/modules/products/product.routes';
-import { OrderRoutes } from './app/modules/orders/order.routes';
-import { UserRoutes } from './app/modules/users/user.routes';
+import { ProductRoutes } from './app/modules/products/product.routes.js';
+import { OrderRoutes } from './app/modules/orders/order.routes.js';
+import { UserRoutes } from './app/modules/users/user.routes.js';
 const app = express();
 // Middlewares()
 app.use(json());

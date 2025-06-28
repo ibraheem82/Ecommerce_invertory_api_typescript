@@ -1,7 +1,7 @@
 import express from "express";
-import { ProductControllers } from "./product.controller";
-import { verfiyToken } from "../../middleware/authMiddleware";
-import { isAdmin } from "../../middleware/adminMiddleware";
+import { ProductControllers } from "./product.controller.js";
+import { verfiyToken } from "../../middleware/authMiddleware.js";
+import { isAdmin } from "../../middleware/adminMiddleware.js";
 const router = express.Router();
 router.post('/', verfiyToken, isAdmin, ProductControllers.createProduct);
 router.get('/', ProductControllers.getAllProducts);

@@ -1,4 +1,4 @@
-import { OrderModel } from "./order.model";
+import { OrderModel } from "./order.model.js";
 const createANewOrder = async (orderData) => {
     return await OrderModel.create(orderData);
 };

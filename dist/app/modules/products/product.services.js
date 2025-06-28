@@ -1,4 +1,4 @@
-import { Product } from "./product.model";
+import { Product } from "./product.model.js";
 // Takes productData as an input.
 // Ensures productData matches the TProduct structure using TypeScript.
 const createAProductIntoDB = async (productData) => {

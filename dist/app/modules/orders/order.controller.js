@@ -1,6 +1,6 @@
-import orderValidationSchema from "./order.validation";
-import { Product } from "../products/product.model";
-import { OrderServices } from "./order.services";
+import orderValidationSchema from "./order.validation.js";
+import { Product } from "../products/product.model.js";
+import { OrderServices } from "./order.services.js";
 //  Since you're using async, your function always returns a Promise implicitly.
 const createOrder = async (req, res) => {
     try {

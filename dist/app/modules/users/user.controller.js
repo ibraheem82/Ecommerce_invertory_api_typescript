@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
-import config from "../../config/index";
-import { userServices } from "./user.services";
+import config from "../../config/index.js";
+import { userServices } from "./user.services.js";
 const JWT_SECRET = config.jwt_secret;
 const registerUser = async (req, res) => {
     const { email, password, role } = req.body;

@@ -1,4 +1,4 @@
-import { User } from "./user.model";
+import { User } from "./user.model.js";
 import bcrypt from 'bcryptjs';
 const findUserByEmail = async (email) => {
     return User.findOne({ email: email });

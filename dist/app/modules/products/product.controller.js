@@ -1,5 +1,5 @@
-import productValidationSchema from "./product.validation";
-import { ProductServices } from "./product.services";
+import productValidationSchema from "./product.validation.js";
+import { ProductServices } from "./product.services.js";
 const createProduct = async (req, res) => {
     try {
         const zodParser = productValidationSchema.parse(req.body);
