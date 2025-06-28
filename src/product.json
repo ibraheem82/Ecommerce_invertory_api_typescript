@@ -1,19 +1,5 @@
 [
-  {
-    "name": "Smartphone",
-    "description": "Latest model smartphone with 128GB storage and dual cameras.",
-    "price": 699.99,
-    "category": "Electronics",
-    "tags": ["smartphone", "mobile", "dual camera", "128GB"],
-    "variants": [
-      {"type": "color", "value": "Black"},
-      {"type": "color", "value": "White"}
-    ],
-    "inventory": {
-      "quantity": 50,
-      "inStock": true
-    }
-  },
+  
   {
     "name": "Laptop",
     "description": "15.6\" FHD laptop with Intel i7 processor, 16GB RAM, 512GB SSD.",
